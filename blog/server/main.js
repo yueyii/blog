@@ -1,7 +1,7 @@
 var http = require('http');
-
+var mongoose = require('mongoose');
 http.createServer(function (request, response) {
-
+    console.log("pas fck u ");
     // 发送 HTTP 头部 
     // HTTP 状态值: 200 : OK
     // 内容类型: text/plain
